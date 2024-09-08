@@ -1,5 +1,5 @@
 .body {
-  background-color: #ffd101;
+  background-color: #ffc312;
 }
 
 .section_hero {
@@ -25,7 +25,7 @@
 }
 
 .grass_hero {
-  background-image: url('../images/grass_01.svg');
+  background-image: url("../images/grass_01.svg");
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -159,7 +159,7 @@
 }
 
 .wave {
-  background-image: url('../images/wave.svg');
+  background-image: url("../images/wave.svg");
   background-position: 100% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -170,7 +170,7 @@
 }
 
 .section_about_bottom {
-  background-color: #e5be1a;
+  background-color: #ffc312;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -197,7 +197,7 @@
 }
 
 .grass_about {
-  background-image: url('../images/grass_02.svg');
+  background-image: url("../images/grass_02.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -222,7 +222,7 @@
 }
 
 .block_tokenomics {
-  background-color: #ffd101;
+  background-color: #ffc312;
   border: 3px solid #8f7400;
   border-bottom-width: 8px;
   border-radius: 20px;
@@ -234,7 +234,7 @@
 }
 
 .tokenomics_in {
-  background-color: #e5be1a;
+  background-color: #ffc312;
   border-radius: 20px;
   flex-flow: column;
   justify-content: flex-start;
@@ -278,7 +278,7 @@
 }
 
 .wave_block {
-  background-image: url('../images/wave03.svg');
+  background-image: url("../images/wave03.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -288,14 +288,14 @@
 }
 
 .wave02 {
-  background-color: #ffd101;
+  background-color: #ffc312;
   height: 32%;
   position: absolute;
   inset: auto 0% 0%;
 }
 
 .section_join {
-  background-color: #ffd101;
+  background-color: #ffc312;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -316,7 +316,7 @@
 
 .tg {
   background-color: #333;
-  background-image: url('../images/tg.svg');
+  background-image: url("../images/tg.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -334,7 +334,7 @@
 }
 
 .grass_footer {
-  background-image: url('../images/grass_01.svg');
+  background-image: url("../images/grass_01.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -346,7 +346,7 @@
 
 .x {
   background-color: #333;
-  background-image: url('../images/x.svg');
+  background-image: url("../images/x.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 110%;
@@ -359,7 +359,7 @@
 
 .dex {
   background-color: #333;
-  background-image: url('../images/dex.png');
+  background-image: url("../images/dex.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 75%;
@@ -403,7 +403,7 @@
 
 .section_welcome {
   z-index: 2000;
-  background-color: #ffd101;
+  background-color: #ffc312;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -474,7 +474,8 @@
     height: auto;
   }
 
-  .block_para, .block_tokenomics {
+  .block_para,
+  .block_tokenomics {
     width: 90%;
   }
 
@@ -563,17 +564,16 @@
   }
 }
 
-
 @font-face {
-  font-family: 'Super Squad';
-  src: url('../fonts/Super-Squad.ttf') format('truetype');
+  font-family: "Super Squad";
+  src: url("../fonts/Super-Squad.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Comic Kings';
-  src: url('../fonts/Comic-Kings.ttf') format('truetype');
+  font-family: "Comic Kings";
+  src: url("../fonts/Comic-Kings.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
